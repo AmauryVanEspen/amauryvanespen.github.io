@@ -1,4 +1,4 @@
-# AstroPaper 📄
+# AstroPaper | Modèle de Blog avec Pages CMS📄
 
 ![AstroPaper](public/astropaper-og.jpg)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -6,13 +6,13 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+AstroPaper est un thème de blog minimal, responsive, accessible & SEO-friendly. Ce thème est conçu et personalisé sur la base du [blog de satnaing](https://satnaing.dev/blog).
 
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
+Ce thème suit les bonnes pratiques et fournis une accessibilité complète. Il support par défaut les modes Light & Dark. De plus, des palettes de couleurs additionnelles peuvent être configurée.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+Ce thème est autodocumenté \_ ce qui signifie que les articles/posts peuvent également être considéré comme de la documentation. Lisez [l'article de blog](https://astro-paper.pages.dev/posts/) ou [La section Lisez-Moi](#-documentation) pour plus d'information.
 
-## 🔥 Features
+## 🔥 Fonctionalités
 
 - [x] type-safe markdown
 - [x] super fast performance
@@ -27,7 +27,7 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 - [x] highly customizable
 - [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+_Note: La fonction d'accessibilité de lecture d'écran AstroPaper utilisant **VoiceOver** sur MAC et **TalkBack** sur Android ont été testés. 
 
 ## ✅ Lighthouse Score
 
@@ -39,7 +39,7 @@ _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver**
 
 ## 🚀 Project Structure
 
-Inside of AstroPaper, you'll see the following folders and files:
+A l'intérieur d'AstroPaper, voici l'arborescence de répertoires et fichiers :
 
 ```bash
 /
@@ -68,22 +68,22 @@ Inside of AstroPaper, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro cherche les fichiers `.astro` ou `.md` dans le répertoire `src/pages/`. Chaque page est exposée en tant que route avec son propre nom.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Tous les composants statiques, comme les images, peuvent être ajoutés dans le répertoire `public/`.
 
-All blog posts are stored in `src/content/blog` directory.
+Tous les articles peuvent être stocké dans le répertoire `src/content/blog`.
 
 ## 📖 Documentation
 
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
+Documentation peut être lue dans deux formats\_ _markdown_ & _blog post_.
 
 - Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
+- Ajouter des articles - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
+- Personnaliser la palette de couleurs - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
+- Palettes de couleurs prédéfinies - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
 
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
+> Pour AstroPaper v1, jetez un oeil à [cette branche](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) et cette [URL](https://astro-paper-v1.astro-paper.pages.dev/)
 
 ## 💻 Tech Stack
 
@@ -101,7 +101,7 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 
 ## 👨🏻‍💻 Running Locally
 
-The easiest way to run this project locally is to run the following command in your desired directory.
+Le moyen le plus simple d'exécuter ce projet localement est d'exécuter la commande suivante dans le répertoire souhaité.
 
 ```bash
 # npm 6.x
@@ -116,7 +116,7 @@ yarn create astro --template satnaing/astro-paper
 
 ## Google Site Verification (optional)
 
-You can easily add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) in AstroPaper using environment variable. This step is optional. If you don't add the following env variable, the google-site-verification tag won't appear in the html `<head>` section.
+Vous pouvez ajouter votre [Tag Google Site Verification HTML](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) dans AstroPaper en utilisant une variable d'environment. Cette étape est optionnelle. Si vous n'ajoutez pas la variable, Le tag google-site-verification n'appraitra pas dans l'entête html `<head>` section.
 
 ```bash
 # in your environment variable file (.env)
@@ -125,9 +125,9 @@ PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Toutes les commandes sont exécutées depuis la racine du projet, à partir d'un terminal:
 
-> **_Note!_** For `Docker` commands we must have it [installed](https://docs.docker.com/engine/install/) in your machine.
+> **_Note!_** Pour les commandes `Docker` nous devons avoir [installé](https://docs.docker.com/engine/install/) sur la machine.
 
 | Command                              | Action                                                                                                                           |
 | :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,11 +143,11 @@ All commands are run from the root of the project, from a terminal:
 | `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command.                              |
 | `docker compose run app npm install` | You can run any command above into the docker container.                                                                         |
 
-> **_Warning!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
+> **_Warning!_** Les utilisateurs Windows PowerShell devront installer la [paquet concurrently](https://www.npmjs.com/package/concurrently) s'ils souhaitent [exécuter les diagnostiques](https://docs.astro.build/en/reference/cli-reference/#astro-check) durant le dévelopment (`astro check --watch & astro dev`). Pour plus d'info, voir [cette référence](https://github.com/satnaing/astro-paper/issues/113).
 
 ## ✨ Feedback & Suggestions
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
+Si vous avez des suggestions/feedback, vous pouvez contacter [Satnaing](mailto:contact@satnaing.dev). Sentez vous libre d'ouvrir un ticket si vous identifiez des bugs ou vous voulez demander une nouvelle fonctionnalité.
 
 ## 📜 License
 
@@ -155,4 +155,5 @@ Licensed under the MIT License, Copyright © 2023
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+Crée par 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 & [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+Traduit par [Amaury](https://amauryvanespen.github.io/)
